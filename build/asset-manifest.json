@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "./static/css/main.c6416030.chunk.css",
+    "main.js": "./static/js/main.444e5c1b.chunk.js",
+    "main.js.map": "./static/js/main.444e5c1b.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.3cebe4af.js",
+    "runtime-main.js.map": "./static/js/runtime-main.3cebe4af.js.map",
+    "static/js/2.f9b81327.chunk.js": "./static/js/2.f9b81327.chunk.js",
+    "static/js/2.f9b81327.chunk.js.map": "./static/js/2.f9b81327.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.c6416030.chunk.css.map": "./static/css/main.c6416030.chunk.css.map",
+    "static/js/2.f9b81327.chunk.js.LICENSE.txt": "./static/js/2.f9b81327.chunk.js.LICENSE.txt",
+    "static/media/icon-cart.539ec608.svg": "./static/media/icon-cart.539ec608.svg",
+    "static/media/icon-delete.1fd1f1f7.svg": "./static/media/icon-delete.1fd1f1f7.svg",
+    "static/media/image-product-1.520cc50b.jpg": "./static/media/image-product-1.520cc50b.jpg",
+    "static/media/logo.4fe9c1e8.svg": "./static/media/logo.4fe9c1e8.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3cebe4af.js",
+    "static/js/2.f9b81327.chunk.js",
+    "static/css/main.c6416030.chunk.css",
+    "static/js/main.444e5c1b.chunk.js"
+  ]
+}
