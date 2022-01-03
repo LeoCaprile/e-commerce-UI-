@@ -1,0 +1,32 @@
+.modal-image-viewer-container {
+	display: grid;
+	grid-template-columns: 1fr auto 1fr;
+	align-items: center;
+
+	.modal-next-picture-button,
+	.modal-prev-picture-button {
+		cursor: pointer;
+		position: relative;
+		display: grid;
+		background: white;
+		border: none;
+		height: 7vh;
+		width: 7vh;
+		border-radius: 50%;
+		margin-bottom: 18vh;
+		place-content: center;
+
+		&:hover {
+			path {
+				stroke: orange;
+			}
+		}
+	}
+	.modal-next-picture-button {
+		left: -2vw;
+	}
+
+	.modal-prev-picture-button {
+		right: -2vw;
+	}
+}

@@ -21,3 +21,14 @@
 		text-align: center;
 	}
 }
+@media (min-width: 320px) and (max-width: 600px) {
+	.counter-container {
+		background: rgba(104, 104, 104, 0.05);
+		box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		border-radius: 0.5rem;
+		width: 100%;
+	}
+}

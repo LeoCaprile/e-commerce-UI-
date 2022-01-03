@@ -1,4 +1,4 @@
-import React, {useState,useContext} from 'react'
+import React, {useContext} from 'react'
 import './Counter.styles.scss'
 import { contextCart } from '../../Contexts/CartContext'
 const Counter = (props) => {

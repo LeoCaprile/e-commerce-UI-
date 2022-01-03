@@ -1,0 +1,32 @@
+.modal-container {
+	position: absolute;
+	background: rgba(0, 0, 0, 0.65);
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	display: grid;
+	grid-template-columns: repeat(1, 75vh);
+	place-content: center;
+}
+
+.modal-close-button {
+	margin-left: calc(100% - 5.2em);
+	padding: 1rem 0 1.5rem 0;
+	cursor: pointer;
+	transform: scale(1.5);
+	&:hover {
+		path {
+			fill: orange;
+		}
+	}
+}
+.hidden {
+	display: none;
+}
+
+@media (min-width: 320px) and (max-width: 600px) {
+	.modal-container {
+		display: none;
+	}
+}

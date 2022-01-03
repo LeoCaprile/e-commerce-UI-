@@ -13,3 +13,11 @@ html {
 #root {
 	height: 100%;
 }
+
+@media (min-width: 320px) and (max-width: 600px) {
+	html {
+		height: 100vh;
+		margin: 0;
+		font-family: 'Kumbh Sans', sans-serif;
+	}
+}

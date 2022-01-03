@@ -1,0 +1,25 @@
+.product-brand {
+	color: hsl(26, 100%, 55%);
+}
+
+@media (min-width: 320px) and (max-width: 600px) {
+	.product-brand {
+		color: hsl(26, 100%, 55%);
+		padding: 0 1rem 0 1rem;
+		font-size: 1rem;
+		font-weight: bolder;
+		margin-top: 0;
+	}
+	.product-title {
+		padding: 0 1rem 0 1rem;
+		font-size: 2rem;
+	}
+	.product-info {
+		padding: 0 1rem 0 1rem;
+	}
+	.prices {
+		display: flex;
+		justify-content: space-between;
+		padding: 0 1rem 0 1rem;
+	}
+}

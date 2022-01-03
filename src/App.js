@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/header/header.component';
 import ProductPage from './pages/ProductPage';
 import CartContext from './Contexts/CartContext';
+
 function App() {
 	return (
 		<Fragment>

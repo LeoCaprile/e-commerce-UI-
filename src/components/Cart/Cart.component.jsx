@@ -9,6 +9,7 @@ const Cart = (props) => {
     const [hide, setHide] = useState(true)
     const {items,total} = useContext(contextCart)
     
+   
 
     return (
         

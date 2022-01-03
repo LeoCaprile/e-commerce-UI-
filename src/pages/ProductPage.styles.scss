@@ -1,6 +1,17 @@
 .product-page {
 	display: grid;
 	gap: 5vw;
-	grid-template-columns: repeat(2, 50%);
-	padding: 7vw;
+	grid-template-columns: repeat(2, 45%);
+	padding: 5vw;
+	padding-bottom: 0;
+}
+
+@media (min-width: 320px) and (max-width: 600px) {
+	.product-page {
+		display: grid;
+		gap: 5vw;
+		grid-template-columns: auto;
+		padding: 0;
+		padding-bottom: 0;
+	}
 }

@@ -55,3 +55,31 @@
 		}
 	}
 }
+@media (min-width: 320px) and (max-width: 600px) {
+	.description-buttons {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		gap: 20px;
+		padding: 0 1rem 1rem 1rem;
+
+		.addtocart-button {
+			box-shadow: 5px 2px 10px hsl(26, 100%, 55%);
+			border: none;
+			border-radius: 0.5rem;
+			width: 100%;
+			color: #fff;
+			background: hsl(26, 100%, 55%);
+			cursor: pointer;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			height: 3.5rem;
+
+			.cart-img {
+				transform: scale(.9);
+				align-self: center;
+			}
+		}
+	}
+}

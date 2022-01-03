@@ -42,3 +42,32 @@
 		border-radius: 0.5rem;
 	}
 }
+
+@media (min-width: 320px) and (max-width: 600px) {
+	.cart-num {
+		position: relative;
+		bottom: 20px;
+		left: 40px;
+		background: hsl(26, 100%, 55%);
+		padding: 0 10px 0 10px;
+		text-align: center;
+		color: #fff;
+		align-self: center;
+		border-radius: 10rem;
+		font-weight: 1000;
+	}
+	.cart-img {
+		height: 25px;
+		cursor: pointer;
+	}
+
+	.cart-detail {
+		position: absolute;
+		background: #fff;
+		box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+		border-radius: 0.5rem;
+		width: 95%;
+		right: 2%;
+		top: 14%;
+	}
+}
