@@ -5,6 +5,10 @@
 	padding: 5vw;
 	padding-bottom: 0;
 }
+.next-picture-button,
+.prev-picture-button {
+	display: none;
+}
 
 @media (min-width: 320px) and (max-width: 600px) {
 	.product-page {
@@ -13,5 +17,36 @@
 		grid-template-columns: auto;
 		padding: 0;
 		padding-bottom: 0;
+	}
+
+	.next-picture-button {
+		top: 35%;
+		right: 2%;
+		z-index: 0;
+	}
+
+	.prev-picture-button {
+		top: 35%;
+		left: 2%;
+		z-index: 0;
+	}
+
+	.next-picture-button,
+	.prev-picture-button {
+		cursor: pointer;
+		position: absolute;
+		display: grid;
+		background: white;
+		border: none;
+		height: 7vh;
+		width: 7vh;
+		border-radius: 50%;
+		margin-bottom: 18vh;
+		place-content: center;
+		&:hover {
+			path {
+				stroke: orange;
+			}
+		}
 	}
 }
